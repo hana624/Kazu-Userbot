@@ -586,7 +586,7 @@ async def _(ayiin):
 async def fonts(yins):
     ayiin = await edit_or_reply(yins,
                                 "**style fonts.**\n\n"        
-                                "**• smallcap     > ʙʟᴜᴇ**\n"
+                                "**• smallcap     > ✧ᴅᴀʏ ᴜsᴇʀʙᴏᴛ✧**\n"
                                 "**• monospace    > 𝚋𝚕𝚞𝚎**\n"
                                 "**• outline      > 𝕓𝕝𝕦𝕖**\n"
                                 "**• script       > 𝒷𝓁𝓊ℯ**\n"

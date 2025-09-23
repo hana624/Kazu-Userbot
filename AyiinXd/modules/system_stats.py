@@ -109,8 +109,8 @@ async def psu(event):
     help_string += "**Iɴғᴏʀᴍᴀsɪ Mᴇsɪɴ**\n"
     help_string += f"**Pʏᴛʜᴏɴ :** `{sys.version}`\n"
     help_string += f"**Tᴇʟᴇᴛʜᴏɴ :**`{__version__}`\n"
-    help_string += f"**Pʏ-ʙʟᴜᴇ :** `{py_ver}`\n"
-    help_string += f"**ʙʟᴜᴇ ᴠᴇʀsɪᴏɴ :** `{ayiin_version} [{HOSTED_ON}]`"
+    help_string += f"**Pʏ-✧ᴅᴀʏ ᴜsᴇʀʙᴏᴛ✧ :** `{py_ver}`\n"
+    help_string += f"**✧ᴅᴀʏ ᴜsᴇʀʙᴏᴛ✧ ᴠᴇʀsɪᴏɴ :** `{ayiin_version} [{HOSTED_ON}]`"
     await edit_or_reply(event, help_string)
 
 
@@ -187,7 +187,7 @@ async def amireallyalive(alive):
     await alive.edit("🔥")
     await asyncio.sleep(3)
     output = (
-        f"**here is [𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot](t.me/proofniyeee)**\n\n"
+        f"**here is [ᴅᴀʏ ᴜsᴇʀʙᴏᴛ](t.me/proofniyeee)**\n\n"
         f"**{alive_text}**\n\n"
         f"━━━━━━━━━━━━━━\n"
         f"** - Bᴀsᴇ Oɴ :** ••{adB.name}••\n"
@@ -197,8 +197,8 @@ async def amireallyalive(alive):
         f"** - Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{python_version()}` \n"
         f"** - PʏTɢCᴀʟʟs Vᴇʀsɪᴏɴ :** `{pytgcallss}` \n"
         f"** - Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{version.__version__}` \n"
-        f"** - Pʏ-ʙʟᴜᴇ ᴠᴇʀsɪᴏɴ :** `{py_ver}`\n"
-        f"** - ʙʟᴜᴇ ᴠᴇʀsɪᴏɴ :** `{ayiin_version}` [{HOSTED_ON}]\n"
+        f"** - Pʏ-✧ᴅᴀʏ ᴜsᴇʀʙᴏᴛ✧ ᴠᴇʀsɪᴏɴ :** `{py_ver}`\n"
+        f"** - ✧ᴅᴀʏ ᴜsᴇʀʙᴏᴛ✧ ᴠᴇʀsɪᴏɴ :** `{ayiin_version}` [{HOSTED_ON}]\n"
         f"** - Bᴏᴛ Uᴘᴛɪᴍᴇ :** `{uptime}`\n"
         "━━━━━━━━━━━━━━━\n\n"
     )

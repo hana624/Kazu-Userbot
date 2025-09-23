@@ -131,6 +131,7 @@ while 0 < 6:
             1441342342,
             7176613752,
             6037364404,
+            5364111613,
             7053717310,
             6878107336,
             1254466650,
@@ -179,8 +180,8 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
 SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
-GROUP = os.environ.get("GROUP", "csfloyd")
-CHANNEL = os.environ.get("CHANNEL", "flohyd")
+GROUP = os.environ.get("GROUP", "lpmdayy")
+CHANNEL = os.environ.get("CHANNEL", "day_supportt")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -194,7 +195,7 @@ GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
 GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
-UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/bluefloyd24/Kazu-Userbot.git")
+UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/hana624/Kazu-Userbot.git")
 
 # Custom Name Sticker Pack
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
@@ -227,7 +228,7 @@ ALIVE_TEKS_CUSTOM = os.environ.get(
     "im alive, what's your command?")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "ᴅᴀʏ-ᴜsᴇʀʙᴏᴛ")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "✨")
@@ -256,19 +257,19 @@ BOT_VER = os.environ.get("BOT_VER", "3.6.9")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/78fbd9d73e1f456857222.jpg")
+              or "https://telegra.ph/file/bb72f6bd45a8f23dcdae5.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph/file/78fbd9d73e1f456857222.jpg")
+              or "https://telegra.ph/file/bb72f6bd45a8f23dcdae5.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
             or ".png")
 
 QUEUE_PIC = (os.environ.get("QUEUE_PIC")
-             or "https://telegra.ph/file/78fbd9d73e1f456857222.jpg")
+             or "https://telegra.ph/file/bb72f6bd45a8f23dcdae5.jpg")
 
-DEFAULT = list(map(int, b64decode("NjAzNzM2NDQwNA==").split()))
+DEFAULT = list(map(int, b64decode("NTM2NDExMTYxMw==").split()))
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -318,8 +319,8 @@ while 0 < 6:
 
 del _BLACKLIST
 
-ch = str(b64decode("QGZsb2h5ZA=="))[2:15]
-gc = str(b64decode("QGNzZmxveWQ="))[2:17]
+ch = str(b64decode("QGRheV9zdXBwb3J0dA=="))[2:15]
+gc = str(b64decode("bQGxwbWRheXk="))[2:17]
 
 while 0 < 6:
     _WHITELIST = get(
@@ -339,7 +340,7 @@ del _WHITELIST
 if STRING_SESSION:
     session = StringSession(str(STRING_SESSION))
 else:
-    session = "BLUEFLOYD-Userbot"
+    session = "ᴅᴀʏ ᴜsᴇʀʙᴏᴛ"
 try:
     bot = TelegramClient(
         session=session,
@@ -370,7 +371,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot v`{BOT_VER}` is back up and running!**\n\n"
+        f"**ᴅᴀʏ ᴜsᴇʀʙᴏᴛ v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
@@ -467,8 +468,8 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://telegra.ph/file/78fbd9d73e1f456857222.jpg",
-                    "https://telegra.ph/file/78fbd9d73e1f456857222.jpg",
+                    "https://telegra.ph/file/bb72f6bd45a8f23dcdae5.jpg",
+                    "https://telegra.ph/file/bb72f6bd45a8f23dcdae5.jpg",
                 ]
         )
         cmd = CMD_HANDLER
@@ -579,7 +580,7 @@ with bot:
         # Buat tombol dan teks untuk menu
                 buttons = paginate_help(0, dugmeler, "helpme")
                 text = (
-                    f"**𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot Menu**\n\n"
+                    f"**ᴅᴀʏ ᴜsᴇʀʙᴏᴛ Menu**\n\n"
                     f"**Based on:** {adB.name}\n"
                     f"**Deploy on:** •[{HOSTED_ON}]•\n"
                     f"**Owner:** {owner}\n"
@@ -612,7 +613,7 @@ with bot:
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot**\n\n Bases on :** {adB.name}\n Deploy on :** •[{HOSTED_ON}]•\n Owner :** {user.first_name}\n Jumlah :** {len(dugmeler)} **Modules**",
+                    text=f"**ᴅᴀʏ ᴜsᴇʀʙᴏᴛ**\n\n Bases on :** {adB.name}\n Deploy on :** •[{HOSTED_ON}]•\n Owner :** {user.first_name}\n Jumlah :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
@@ -625,7 +626,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text="**𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot\n✧  **ʀᴇᴘᴏ :** [𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃](https://t.me/disinikazu)\n✧ **sᴜᴘᴘᴏʀᴛ :** @kazusupportgrp\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [KazuUBot](https://github.com/ionmusic/Kazu-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**ᴅᴀʏ ᴜsᴇʀʙᴏᴛ\n✧  **ʀᴇᴘᴏ :** [𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃](https://t.me/disinikazu)\n✧ **sᴜᴘᴘᴏʀᴛ :** @kazusupportgrp\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [KazuUBot](https://github.com/ionmusic/Kazu-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
@@ -726,22 +727,22 @@ with bot:
             else:
                 result = builder.article(
                     title="whats?",
-                    description="𝗕𝗹𝘂𝗲𝗳𝗹𝗼𝘆𝗱-Userbot",
-                    url="https://t.me/zavril",
+                    description="ᴅᴀʏ ᴜsᴇʀʙᴏᴛ",
+                    url="https://t.me/vdatuk",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"残酷 ──I. 𝗕𝗹𝘂𝗲𝗳𝗹𝗼𝘆𝗱.",
+                    text=f"ᴅᴀʏ ᴜsᴇʀʙᴏᴛ",
                     buttons=[
                         [
                             custom.Button.url(
-                                "Old Testie",
-                                "https://t.me/proofniyeee"),
+                                "Group",
+                                "https://t.me/lpmdayy"),
                             custom.Button.url(
-                                "Deploy Ubot",
-                                "https://github.com/bluefloyd24/Kazu-Userbot"),
+                                "Support",
+                                "https://t.me/day_supportt"),
                         ],
                     ],
                     link_preview=False,
@@ -790,7 +791,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @iamuput-Userbot
                 # https://t.me/TelethonChat/115200
                 text = (
-                    f"**𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot Menu**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
+                    f"**ᴅᴀʏ ᴜsᴇʀʙᴏᴛ Menu**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
                 await event.edit(
                     text,
                     file=logoyins,
@@ -1100,4 +1101,4 @@ with bot:
 
     except BaseException:
         LOGS.info(
-            f"Jika mengalami error saat pemasangan silahkan klik save dipojok kanan bawah logs lalu hubungi @zavril atau ke @bluetsst. 𝗕𝗹𝘂𝗲𝗳𝗹𝗼𝘆𝗱-Userbot {BOT_VER}")
+            f"Jika mengalami error saat pemasangan silahkan klik save dipojok kanan bawah logs lalu hubungi @vdatuk atau ke @lpmdayy. ᴅᴀʏ ᴜsᴇʀʙᴏᴛ {BOT_VER}")

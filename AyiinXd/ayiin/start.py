@@ -18,10 +18,10 @@ async def startupmessage():
         if BOTLOG:
             await tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/78fbd9d73e1f456857222.jpg",
-                caption="𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot.\n     **status : Active\n     ketik `.ping` untuk cek bot!**",
-                buttons=[(Button.url("Channel", "https://t.me/bluefloydd")),
-                         (Button.url("Support", "https://t.me/bluetsst"))]
+                "https://telegra.ph/file/bb72f6bd45a8f23dcdae5.jpg",
+                caption="ᴅᴀʏ ᴜsᴇʀʙᴏᴛ.\n     **status : Active\n     ketik `.ping` untuk cek bot!**",
+                buttons=[(Button.url("Channel", "https://t.me/day_support")),
+                         (Button.url("Support", "https://t.me/lpmdayy"))]
             )
     except Exception as e:
         LOGS.error(e)

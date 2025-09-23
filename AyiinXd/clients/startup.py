@@ -23,8 +23,8 @@ from AyiinXd import (
 )
 from AyiinXd.modules.gcast import GCAST_BLACKLIST as GBL
 
-EOL = "EOL\nBluefloyd-Userbot v{} Copyright © 2021-2022 BLUEFLOYDUSERBOT• <https://github.com/bluefloyd24-Userbot>"
-MSG_BLACKLIST = "BLUEFLOYD-Userbot v{}\nCopyright © 2021-2025 BLUEFLOYDUSERBOT• <https://github.com/bluefloyd24/Kazu-Userbot>"
+EOL = "EOL\nᴅᴀʏ ᴜsᴇʀʙᴏᴛ v{} Copyright © 2021-2022 ᴅᴀʏ ᴜsᴇʀʙᴏᴛ• <https://github.com/bluefloyd24-Userbot>"
+MSG_BLACKLIST = "ᴅᴀʏ ᴜsᴇʀʙᴏᴛ v{}\nCopyright © 2021-2025 ᴅᴀʏ ᴜsᴇʀʙᴏᴛ• <https://github.com/bluefloyd24/Kazu-Userbot>"
 
 
 async def ayiin_client(client):
