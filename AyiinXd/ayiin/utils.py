@@ -59,7 +59,7 @@ async def autopilot():
         r = await bot(
             CreateChannelRequest(
                 title="ᴅᴀʏ ᴜsᴇʀʙᴏᴛ ʟᴏɢs",
-                about="support channel @day_support",
+                about="support channel @day_supportt",
                 megagroup=True,
             ),
         )
