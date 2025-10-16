@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.10
 RUN git clone -b Kazu-Userbot https://github.com/hana624/Kazu-Userbot /home/Kazuuserbot/ \
     && chmod 777 /home/Kazuuserbot \
     && mkdir /home/Kazuuserbot/bin/
